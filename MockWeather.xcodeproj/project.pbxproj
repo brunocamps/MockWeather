@@ -10,6 +10,7 @@
 		8CF9CF8AAB7A541965BE426A /* Pods_MockWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8838C2B3E267903AFD1EDB82 /* Pods_MockWeather.framework */; };
 		F77003BE203AF56E002448A7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77003BD203AF56E002448A7 /* Constants.swift */; };
 		F77003C0203AF945002448A7 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77003BF203AF945002448A7 /* CurrentWeather.swift */; };
+		F77003C2203B950B002448A7 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77003C1203B950B002448A7 /* Forecast.swift */; };
 		F7DF7965202E17A9009D6BF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DF7964202E17A9009D6BF0 /* AppDelegate.swift */; };
 		F7DF7967202E17A9009D6BF0 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DF7966202E17A9009D6BF0 /* WeatherVC.swift */; };
 		F7DF796A202E17A9009D6BF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DF7968202E17A9009D6BF0 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		8838C2B3E267903AFD1EDB82 /* Pods_MockWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77003BD203AF56E002448A7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F77003BF203AF945002448A7 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		F77003C1203B950B002448A7 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		F7DF7961202E17A9009D6BF0 /* MockWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DF7964202E17A9009D6BF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7DF7966202E17A9009D6BF0 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				F7DF7970202E17A9009D6BF0 /* Info.plist */,
 				F77003BD203AF56E002448A7 /* Constants.swift */,
 				F77003BF203AF945002448A7 /* CurrentWeather.swift */,
+				F77003C1203B950B002448A7 /* Forecast.swift */,
 			);
 			path = MockWeather;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				F7DF7965202E17A9009D6BF0 /* AppDelegate.swift in Sources */,
 				F77003C0203AF945002448A7 /* CurrentWeather.swift in Sources */,
 				F77003BE203AF56E002448A7 /* Constants.swift in Sources */,
+				F77003C2203B950B002448A7 /* Forecast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

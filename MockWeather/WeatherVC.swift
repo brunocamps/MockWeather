@@ -6,8 +6,10 @@
 //
 
 import UIKit
+import CoreLocation
+import Alamofire
 
-class WeatherVC: UIViewController , UITableViewDelegate, UITableViewDataSource{
+class WeatherVC: UIViewController , UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate{
 
     
     @IBOutlet weak var dateLabel: UILabel!
@@ -24,7 +26,12 @@ class WeatherVC: UIViewController , UITableViewDelegate, UITableViewDataSource{
     
     @IBOutlet weak var tableView: UITableView!
     
+    let locationManager = CLLocationManager()
+    var currentLocation: CLLocation!
+    
     var currentWeather = CurrentWeather() //creates a generic class of current weather
+    var forecast: Forecast!
+    var forecasts = [Forecast]()
     
     
     override func viewDidLoad() {
@@ -33,6 +40,9 @@ class WeatherVC: UIViewController , UITableViewDelegate, UITableViewDataSource{
         //Tell where the data is.
         tableView.delegate = self
         tableView.dataSource = self
+        
+        currentWeather = CurrentWeather()
+        
         
         currentWeather.downloadWeatherDetails {
             //Setup UI to load downloaded data
